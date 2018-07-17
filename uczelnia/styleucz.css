@@ -1,0 +1,156 @@
+*{
+    margin=0;
+    padding: 0;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:seashell;
+}
+
+#abc{
+    max-width: 1000px;
+    margin: 0 auto;
+   background-color:mintcream;
+}
+header img{
+    width: 100%;
+    display: block;   
+}
+nav{
+    overflow: hidden /* z uwagi na to, że nav jest 0 wysokosci bo element a nie rozszerza nav overflow powoduje ze nav ma taka samą wysokość jak  a generalnie over hiden służy do ukrywania elementów wytających ale tez daje rozmiar*/
+}
+nav a{
+    display: block;
+    width: 25%;
+    float:left; /*dołóż po lewej element blokowy jesli jest miejsce*/
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px;
+    transition: all 1s ease; /* łagodne przejscie*/
+}
+@media (max-width:800px){
+    nav a {
+        width: 50%; /* jesli stona jet mniejsz niz 800 px jeden przycisk nawigacji ma zajmować 50% czyli tylko  w linii*/
+    }
+}
+    
+@media (max-width:500px){
+    nav a {
+        width: 100%; /* jesli stona jet mniejsz niz 800 px jeden przycisk nawigacji ma zajmować 50% czyli tylko  w linii*/
+    }
+}
+nav a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.active{
+     background-color: aquamarine;
+    color: black;
+    
+}
+
+   
+menu{
+    
+    padding: 10px 10px;
+    background-color: lightgrey;
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#west{
+    float: left; 
+    padding:10px; 
+    width: 270px;
+    height: 550px;
+    background-color: ghostwhite;
+    border-right: 1px solid #0f0f9b;
+    
+}
+.menuWest{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 90%;
+    background-color: ghostwhite;
+    
+}
+
+#east{
+    font-size: 18px;
+    width:710px;
+    height: 550px;
+    background-color: ghostwhite;
+    padding-left: 10px;
+    float: left;
+    display: block;
+    
+   
+}
+
+  
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 200%;
+}
+ul a{
+    text-decoration: none;
+    color: black;  
+}
+
+ul a:hover{
+    background-color: blue;
+    color: white;
+}
+#tytul{
+    font-size: 18px;
+}
+
+#przycisk{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    padding: 5px;
+    
+}
+#przycisk:hover{
+    background-color: blanchedalmond;
+    color: black;
+    
+}
+#przyciskusun{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+    
+}
+#przyciskusun:hover{
+    background-color: rosybrown;
+    color: black;
+    
+}
+
+
+
+footer{
+    height: 40px;
+    background-color: midnightblue;
+
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
