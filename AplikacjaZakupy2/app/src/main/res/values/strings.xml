@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplikacja Zakupy</string>
+    <string name="action_settings">Settings</string>
+    <string name="promocja">Oblicz promocję</string>
+    <string name="lista">Lista zakupów</string>
+    <string name="title_activity_promocja">Promocja</string>
+    <string name="title_activity_lista">Lista</string>
+    <string name="action_sort">Sortuj ABC</string>
+    <string name="action_add">Dodaj</string>
+    <string name="action_clear">Usuń</string>
+    <string name="add_price">Podaj cenę</string>
+    <string name="nazwa">Oblicz promocję</string>
+    <string name="add_prom">Podaj warość promocji %</string>
+    <string name="oblicz">Oblicz</string>
+
+</resources>
